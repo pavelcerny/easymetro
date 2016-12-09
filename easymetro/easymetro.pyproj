@@ -4,6 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>easymetro</Name>
     <RootNamespace>easymetro</RootNamespace>
+    <NameOfLastUsedPublishProfile>easymetro - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -52,6 +53,7 @@
     <Folder Include="easymetro\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="easymetro - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
