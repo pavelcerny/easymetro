@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metro Easier</title>
+</head>
+<body>
+{% if voted  %}
+    <p>You just added +1 easy day</p>
+{% endif %}
+<p>Can we make the metro easier?</p>
+{% if n_persons and n_days  %}
+    <p>We already made {{n_days}} days easier to {{n_persons}} unique metro travellers</p>
+{% else %}
+    <p>No data are available</p>
+{% endif %}
+</body>
+</html>
